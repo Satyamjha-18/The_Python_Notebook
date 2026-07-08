@@ -57,12 +57,12 @@ A valid variable name must follow these rules:
 
 # Variable Naming Examples
 
-| ✅ Valid Variables | ❌ Invalid Variables |
-| name | 15name |
-| city | Full Name |
-| age1 | $city |
-| Full_Name | my-name |
-| student_name | class |
+| ✅ Valid Variables  | ❌ Invalid Variables |
+|       name          | 15name                |
+|       city          | Full Name             |
+|       age1          | $city                 |
+|     Full_Name       | my-name               |
+|    student_name     | class                 |
 
 Example
 
@@ -154,12 +154,8 @@ Python automatically assigns a data type based on the value.
 
 Example
 
-```python
 age = 22
 name = "Satyam"
-```
-
----
 
 # Basic Data Types
 
@@ -167,50 +163,39 @@ name = "Satyam"
 
 Stores whole numbers.
 
-```python
 age = 22
-```
 
----
 
 ## 2. Float (float)
 
 Stores decimal numbers.
 
-```python
-price = 99.99
-```
 
----
+price = 99.99
 
 ## 3. Complex (complex)
 
 Stores complex numbers.
 
-```python
 num = 3 + 5j
-```
 
----
 
 ## 4. String (str)
 
 Stores text.
 
-```python
-name = "Satyam"
-```
 
----
+name = "Satyam"
+
 
 ## 5. Boolean (bool)
 
 Stores only two values.
 
-```python
+
 True
 False
-```
+
 
 Example
 
