@@ -1,0 +1,227 @@
+# 📅 Day 04 - Conditional Statements
+
+# What are Conditional Statements?
+
+Conditional statements are used to execute different blocks of code based on different conditions.
+
+Python evaluates the condition.
+
+- If the condition is **True**, the corresponding block executes.
+- If the condition is **False**, another block may execute.
+
+---
+
+# Why do we use Conditional Statements?
+
+They help a program make decisions.
+
+Examples:
+- Check whether a student passed or failed.
+- Find the largest number.
+- Check voting eligibility.
+- Login validation.
+- ATM transaction decisions.
+
+---
+
+# Types of Conditional Statements
+
+- if
+- if-else
+- if-elif-else
+- Nested if
+- Short-hand if
+- Short-hand if-else (Ternary Operator)
+
+---
+
+# 1. if Statement
+
+Executes code only when the condition is True.
+
+### Syntax
+
+```python
+if condition:
+    statement
+```
+
+### Example
+
+```python
+age = 20
+
+if age >= 18:
+    print("Eligible to Vote")
+```
+
+---
+
+# 2. if-else Statement
+
+Executes one block if the condition is True and another block if False.
+
+### Syntax
+
+```python
+if condition:
+    statement
+else:
+    statement
+```
+
+Example
+
+```python
+num = 10
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+```
+
+---
+
+# 3. if-elif-else Statement
+
+Used when multiple conditions need to be checked.
+
+```python
+marks = 85
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print("Fail")
+```
+
+---
+
+# 4. Nested if
+
+An if statement inside another if statement.
+
+```python
+age = 22
+citizen = True
+
+if age >= 18:
+    if citizen:
+        print("Eligible")
+```
+
+---
+
+# 5. Short-hand if
+
+```python
+age = 20
+
+if age >= 18: print("Adult")
+```
+
+---
+
+# 6. Ternary Operator
+
+```python
+age = 20
+
+print("Adult") if age >= 18 else print("Minor")
+```
+
+---
+
+# Logical Operators
+
+## and
+
+Both conditions must be True.
+
+```python
+age = 22
+
+if age >= 18 and age <= 60:
+    print("Working Age")
+```
+
+---
+
+## or
+
+At least one condition should be True.
+
+```python
+marks = 35
+
+if marks >= 33 or marks == 32:
+    print("Pass")
+```
+
+---
+
+## not
+
+Reverses the result.
+
+```python
+logged_in = False
+
+if not logged_in:
+    print("Login Required")
+```
+
+---
+
+# Interview Questions
+
+### What is a Conditional Statement?
+
+A conditional statement is used to make decisions based on conditions.
+
+---
+
+### Difference between if and if-else?
+
+if executes only when the condition is True.
+
+if-else executes one of two blocks.
+
+---
+
+### What is Nested if?
+
+An if statement inside another if statement.
+
+---
+
+### What is Ternary Operator?
+
+A one-line if-else statement.
+
+---
+
+# Summary
+
+✔ if
+
+✔ if-else
+
+✔ if-elif-else
+
+✔ Nested if
+
+✔ Ternary Operator
+
+✔ Logical Operators
+
+✔ Interview Questions
+
+---
+
+🎉 Day 04 Completed Successfully 🚀
