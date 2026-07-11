@@ -316,15 +316,15 @@ Welcome Satyam
 
 # Useful Built-in Functions
 
-| Function | Description |
-|----------|-------------|
-| type() | Check Data Type |
-| int() | Convert to Integer |
-| float() | Convert to Float |
-| str() | Convert to String |
-| bool() | Convert to Boolean |
-| input() | Take User Input |
-| len() | Find Length |
+| Function | Description        |
+|----------|--------------------|
+| type()   | Check Data Type    |
+| int()    | Convert to Integer |
+| float()  | Convert to Float   |
+| str()    | Convert to String  |
+| bool()   | Convert to Boolean |
+| input()  | Take User Input    |
+| len()    |  Find Length       |
 
 ---
 
@@ -356,24 +356,24 @@ Type casting is the process of converting one data type into another.
 
 ### Q5. Difference between int and float?
 
-| int | float |
-|------|--------|
+|        int           |        float           |
+|----------------------|------------------------|
 | Stores whole numbers | Stores decimal numbers |
 
 ---
 
 ### Q6. Difference between List and Tuple?
 
-| List | Tuple |
-|------|--------|
+| List    | Tuple     |
+|---------|-------- --|
 | Mutable | Immutable |
 
 ---
 
 ### Q7. Difference between Set and Dictionary?
 
-| Set | Dictionary |
-|------|------------|
+|        Set           |       Dictionary       |
+|----------------------|------------------------|
 | Stores unique values | Stores key-value pairs |
 
 ---
