@@ -178,10 +178,8 @@ print(squares)
 ---
 
 # Copy List
-
-```python
 new_list = fruits.copy()
-```
+
 
 ---
 
