@@ -174,9 +174,9 @@ Use carefully because it never stops unless interrupted.
 
 # Difference Between for and while
 
-| for Loop | while Loop |
-|----------|------------|
-| Used for sequences | Used for conditions |
+|            for Loop                |          while Loop                 |
+|------------------------------------|-------------------------------------|
+| Used for sequences                 | Used for conditions                 |
 | Number of iterations usually known | Number of iterations may be unknown |
 
 ---
