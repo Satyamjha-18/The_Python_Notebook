@@ -61,11 +61,9 @@ After completing this day, you will be able to:
 - Jupyter Notebook
 - Markdown
 
----
-
 ## 🚀 Next Day
 
-➡️ Day 08 - Tuples in Python
+➡️ Day 07 - Function in Python
 
 ---
 
