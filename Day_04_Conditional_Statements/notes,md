@@ -83,8 +83,6 @@ else:
 # 3. if-elif-else Statement
 
 Used when multiple conditions need to be checked.
-
-```python
 marks = 85
 
 if marks >= 90:
