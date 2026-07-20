@@ -57,12 +57,9 @@ After completing this day, you will be able to:
 - Python 3
 - Jupyter Notebook
 - Markdown
-
----
-
 ## 🚀 Next Day
 
-➡️ Day 07 - Tuples in Python
+➡️ Day 07 - String in Python
 
 ---
 

@@ -6,18 +6,14 @@ An operator is a special symbol used to perform operations on variables and valu
 
 Example
 
-```python
 a = 10
 b = 5
 
 print(a + b)
-```
 
 Output
-
-```
 15
-```
+
 
 ---
 

@@ -55,10 +55,11 @@ After completing this day, you will be able to:
 - Markdown
 
 ---
-
 ## 🚀 Next Day
 
-➡️ Day 06 - Functions in Python
+➡️ Day 06 - List in Python
+
+---
 
 ---
 

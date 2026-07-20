@@ -40,15 +40,12 @@ Examples:
 Executes code only when the condition is True.
 
 ### Syntax
-
-```python
 if condition:
     statement
-```
+
 
 ### Example
 
-```python
 age = 20
 
 if age >= 18:

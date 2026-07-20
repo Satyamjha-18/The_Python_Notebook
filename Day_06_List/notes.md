@@ -134,19 +134,19 @@ del fruits[0]
 
 # Common List Methods
 
-| Method | Description |
-|---------|-------------|
-| append() | Add at end |
-| insert() | Insert at index |
-| extend() | Add multiple items |
-| remove() | Remove by value |
-| pop() | Remove by index |
-| clear() | Remove all elements |
-| index() | Find index |
-| count() | Count occurrences |
-| sort() | Sort list |
+| Method    | Description |
+|-----------|-------------|
+| append()  | Add at end |
+| insert()  | Insert at index |
+| extend()  | Add multiple items |
+| remove()  | Remove by value |
+| pop()     | Remove by index |
+| clear()   | Remove all elements |
+| index()   | Find index |
+| count()   | Count occurrences |
+| sort()    | Sort list |
 | reverse() | Reverse list |
-| copy() | Copy list |
+| copy()    | Copy list |
 
 ---
 

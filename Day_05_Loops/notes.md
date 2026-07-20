@@ -164,7 +164,6 @@ for i in range(5):
 
 # Infinite Loop
 
-```python
 while True:
     print("Hello")
 ```
