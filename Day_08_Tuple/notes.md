@@ -1,299 +1,323 @@
-# 📅 Day 08 - Functions in Python
+# 📘 Day 08 - Tuples in Python
 
-# What is a Function?
+# What is a Tuple?
 
-A function is a reusable block of code that performs a specific task. Instead of writing the same code repeatedly, we define it once and call it whenever required.
+A tuple is an ordered and immutable collection of items in Python.
 
----
+- Ordered
+- Immutable
+- Allows duplicate values
+- Supports different data types
 
-# Why Do We Use Functions?
-
-Functions help us:
-
-- Reuse code
-- Reduce code duplication
-- Improve readability
-- Make programs modular
-- Simplify debugging and maintenance
-
----
-
-# Creating a Function
-
-### Syntax
+Example:
 
 ```python
-def function_name():
-    # Function body
-```
-
-### Example
-
-```python
-def greet():
-    print("Hello, Welcome to Python!")
+student = ("Satyam", 22, "Python")
 ```
 
 ---
 
-# Calling a Function
+# Characteristics of Tuple
+
+✔ Ordered
+
+✔ Immutable
+
+✔ Allows Duplicates
+
+✔ Faster than List
+
+✔ Can Store Multiple Data Types
+
+---
+
+# Creating Tuples
 
 ```python
-greet()
+t1 = (1,2,3)
+
+t2 = ("Python","Java","C++")
+
+t3 = (10,"Satyam",22.5,True)
 ```
 
 ---
 
-# Function with Parameters
-
-Parameters are variables defined in the function declaration.
+# Empty Tuple
 
 ```python
-def greet(name):
-    print("Hello", name)
-
-greet("Satyam")
+t = ()
 ```
 
 ---
 
-# Function with Multiple Parameters
+# Single Element Tuple
 
 ```python
-def add(a, b):
-    print(a + b)
+t = (10,)
+```
 
-add(10, 20)
+> **Note:** Comma is mandatory for a single-element tuple.
+
+---
+
+# Accessing Elements
+
+```python
+fruits = ("Apple","Banana","Mango")
+
+print(fruits[0])
+
+print(fruits[2])
 ```
 
 ---
 
-# Return Statement
-
-The `return` keyword sends the result back to the caller.
+# Negative Indexing
 
 ```python
-def square(num):
-    return num * num
+print(fruits[-1])
 
-result = square(5)
-print(result)
+print(fruits[-2])
 ```
 
 ---
 
-# Types of Arguments
-
-## 1. Positional Arguments
-
-Arguments are passed in the same order as parameters.
+# Tuple Slicing
 
 ```python
-def student(name, age):
-    print(name, age)
+numbers = (10,20,30,40,50)
 
-student("Satyam", 22)
+print(numbers[1:4])
+
+print(numbers[:3])
+
+print(numbers[2:])
 ```
 
 ---
 
-## 2. Keyword Arguments
+# Tuple Immutability
 
-Arguments are passed using parameter names.
+Tuples cannot be modified after creation.
 
 ```python
-student(age=22, name="Satyam")
+numbers = (1,2,3)
+
+# numbers[0]=10 ❌ Error
 ```
 
 ---
 
-## 3. Default Arguments
+# Updating Tuple
 
-A default value is used if no argument is provided.
+Although tuples are immutable, we can create a new tuple.
 
 ```python
-def country(name="India"):
-    print(name)
+t = (1,2,3)
 
-country()
-country("Japan")
+t = t + (4,5)
+
+print(t)
 ```
 
 ---
 
-## 4. Variable-Length Arguments (*args)
-
-Used when the number of arguments is unknown.
+# Deleting Tuple
 
 ```python
-def total(*numbers):
-    print(sum(numbers))
+t = (10,20,30)
 
-total(10, 20, 30)
+del t
 ```
 
 ---
 
-## 5. Keyword Variable-Length Arguments (**kwargs)
-
-Used to pass multiple keyword arguments.
+# Looping Through Tuple
 
 ```python
-def details(**info):
-    print(info)
+colors = ("Red","Green","Blue")
 
-details(name="Satyam", age=22)
+for color in colors:
+    print(color)
 ```
 
 ---
 
-# Variable Scope
-
-## Local Variable
-
-A variable declared inside a function.
+# Membership Operators
 
 ```python
-def demo():
-    x = 10
-    print(x)
+fruits = ("Apple","Banana","Orange")
+
+print("Apple" in fruits)
+
+print("Mango" not in fruits)
 ```
 
 ---
 
-## Global Variable
+# Tuple Methods
 
-A variable declared outside the function.
+## count()
+
+Returns number of occurrences.
 
 ```python
-x = 100
+numbers = (1,2,2,3,2)
 
-def demo():
-    print(x)
+print(numbers.count(2))
 ```
 
 ---
 
-# Lambda Function
+## index()
 
-A lambda function is a small anonymous function.
+Returns first occurrence index.
 
 ```python
-square = lambda x: x * x
+numbers = (10,20,30)
 
-print(square(5))
+print(numbers.index(20))
 ```
 
 ---
 
-# Recursion
-
-Recursion is a process where a function calls itself.
+# Packing
 
 ```python
-def factorial(n):
+student = ("Satyam",22,"India")
+```
 
-    if n == 1:
-        return 1
+---
 
-    return n * factorial(n - 1)
+# Unpacking
 
-print(factorial(5))
+```python
+name, age, country = student
+
+print(name)
+
+print(age)
+
+print(country)
+```
+
+---
+
+# Nested Tuple
+
+```python
+data = (
+    ("Satyam",22),
+    ("Rahul",21),
+    ("Aman",23)
+)
+
+print(data[0][0])
 ```
 
 ---
 
 # Built-in Functions
 
-Some commonly used built-in functions:
-
-- print()
-- len()
-- type()
-- sum()
-- max()
-- min()
-- abs()
-- round()
-
----
-
-# Difference Between Parameters and Arguments
-
-| Parameter | Argument |
-|-----------|----------|
-| Defined in function | Passed during function call |
-| Placeholder | Actual value |
-
-Example:
-
 ```python
-def greet(name):      # Parameter
-    print(name)
+numbers = (10,20,30,40)
 
-greet("Satyam")       # Argument
+print(len(numbers))
+
+print(max(numbers))
+
+print(min(numbers))
+
+print(sum(numbers))
 ```
 
 ---
 
-# Advantages of Functions
+# Tuple vs List
 
-- Code Reusability
-- Better Code Organization
-- Easy Maintenance
-- Reduced Code Duplication
-- Improved Readability
+| Tuple | List |
+|--------|------|
+| Immutable | Mutable |
+| Faster | Slower |
+| Uses () | Uses [] |
+| Less Memory | More Memory |
+| Fixed Data | Frequently Changing Data |
+
+---
+
+# Advantages of Tuple
+
+- Faster execution
+- Less memory usage
+- Data safety (immutable)
+- Can be used as dictionary keys
+- Good for fixed collections
+
+---
+
+# Disadvantages of Tuple
+
+- Cannot modify elements
+- Cannot append items
+- Cannot remove items
+- Less flexible than lists
 
 ---
 
 # Summary
 
-✔ What is a Function?
+✔ Tuple
 
-✔ Function Syntax
+✔ Immutable
 
-✔ Function Call
+✔ Ordered
 
-✔ Parameters
+✔ Indexing
 
-✔ Arguments
+✔ Slicing
 
-✔ Return Statement
+✔ Methods
 
-✔ Default Arguments
+✔ Packing
 
-✔ Keyword Arguments
+✔ Unpacking
 
-✔ Positional Arguments
-
-✔ *args
-
-✔ **kwargs
-
-✔ Local Variable
-
-✔ Global Variable
-
-✔ Lambda Function
-
-✔ Recursion
+✔ Nested Tuple
 
 ✔ Built-in Functions
+
+✔ Tuple vs List
+
+---
+
+# Practice Questions
+
+1. Create a tuple of five numbers.
+2. Access the last element using negative indexing.
+3. Count the occurrence of an element.
+4. Find the index of an element.
+5. Iterate through a tuple.
+6. Demonstrate tuple packing and unpacking.
+7. Create a nested tuple.
+8. Find the maximum and minimum values in a tuple.
+9. Explain why tuples are immutable.
+10. Differentiate between tuple and list.
 
 ---
 
 # Interview Questions
 
-1. What is a function in Python?
-2. Why do we use functions?
-3. What is the difference between parameters and arguments?
-4. What is the purpose of the `return` statement?
-5. What is the difference between local and global variables?
-6. Explain `*args` and `**kwargs`.
-7. What is a lambda function?
-8. What is recursion?
-9. What are built-in functions?
-10. What are the advantages of using functions?
+1. What is a tuple in Python?
+2. Why are tuples immutable?
+3. Difference between tuple and list?
+4. What is tuple packing?
+5. What is tuple unpacking?
+6. Explain tuple slicing.
+7. What are tuple methods?
+8. Can a tuple contain mutable objects?
+9. Why are tuples faster than lists?
+10. When should we use tuples instead of lists?
 
 ---
 
