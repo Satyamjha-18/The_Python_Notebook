@@ -1,28 +1,32 @@
-# 📅 Day 08 - Functions in Python
+# 📘 Day 08 - Tuples in Python
 
 ## 📖 Overview
 
-Functions are reusable blocks of code that perform a specific task. They help make programs modular, reusable, and easier to understand. Instead of writing the same code multiple times, we define it once and call it whenever needed.
+A tuple is an ordered and immutable collection in Python. Tuples are used to store multiple items in a single variable. Unlike lists, tuple elements cannot be modified after creation, making tuples faster and more memory-efficient.
 
 ---
 
 ## 📚 Topics Covered
 
-- Introduction to Functions
-- Why Functions are Important
-- Creating a Function
-- Calling a Function
-- Parameters and Arguments
-- Return Statement
-- Default Arguments
-- Keyword Arguments
-- Positional Arguments
-- Variable-Length Arguments (`*args`)
-- Keyword Variable-Length Arguments (`**kwargs`)
-- Local and Global Variables
-- Lambda Functions (Introduction)
-- Recursion (Introduction)
+- Introduction to Tuples
+- Characteristics of Tuples
+- Creating Tuples
+- Empty Tuple
+- Single Element Tuple
+- Accessing Tuple Elements
+- Negative Indexing
+- Tuple Slicing
+- Tuple Immutability
+- Updating Tuples
+- Deleting Tuples
+- Looping Through Tuples
+- Membership Operators
+- Tuple Methods
+- Packing and Unpacking
+- Nested Tuples
 - Built-in Functions
+- Tuple vs List
+- Advantages and Disadvantages
 - Practice Questions
 - Interview Questions
 
@@ -31,7 +35,7 @@ Functions are reusable blocks of code that perform a specific task. They help ma
 ## 📂 Folder Structure
 
 ```
-Day_08_Function/
+Day_08_Tuple/
 │── code.ipynb
 │── notes.md
 │── README.md
@@ -43,13 +47,13 @@ Day_08_Function/
 
 After completing this module, you will be able to:
 
-- Create and call functions
-- Pass parameters and arguments
-- Return values using the `return` keyword
-- Use default and keyword arguments
-- Work with `*args` and `**kwargs`
-- Understand local and global scope
-- Write modular and reusable Python programs
+- Create and use tuples
+- Access tuple elements using indexing and slicing
+- Understand tuple immutability
+- Use tuple methods efficiently
+- Perform tuple packing and unpacking
+- Differentiate between tuples and lists
+- Solve tuple-based programming problems
 
 ---
 
@@ -61,9 +65,9 @@ After completing this module, you will be able to:
 
 ---
 
-## 🚀 Next Day
+## 🚀 Next Topic
 
-➡️ Day 09 - Dictionaries in Python
+➡️ Day 09 - Dictionary
 
 ---
 
