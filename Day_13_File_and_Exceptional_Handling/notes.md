@@ -31,14 +31,14 @@ The except block is used to handle the exception.
 
 
 13. Common Python Exceptions
-| Exception           | When it        Occurs                 |
-| ------------------- | ------------------------------ |
-| `ValueError`        | Invalid value                  |
-| `TypeError`         | Incompatible data types        |
-| `ZeroDivisionError` | Division by zero               |
-| `FileNotFoundError` | File doesn't exist             |
-| `IndexError`        | Invalid index                  |
-| `KeyError`          | Dictionary key doesn't exist   |
-| `NameError`         | Variable is not defined        |
-| `AttributeError`    | Attribute/method doesn't exist |
-| `PermissionError`   | Access permission denied       |
+|    Exception         |        When it Occurs             |
+| -------------------  | ----------------------------------|
+|    ValueError        |    Invalid value               |
+|    TypeError         |    Incompatible data types        |
+|    ZeroDivisionError |    Division by zero               |
+|    FileNotFoundError |    File doesn't exist             |
+|    IndexError        |    Invalid index                  |
+|    KeyError          |    Dictionary key doesn't exist   |
+|    NameError         |    Variable is not defined        |
+|    AttributeError    |    Attribute/method doesn't exist |
+|    PermissionError   |    Access permission denied       |
